@@ -1,0 +1,29 @@
+@media screen and (max-width:992px) {
+    .main1{
+        height: 300px;
+    }
+    .mainContent{
+        bottom: 30px;
+    }
+}
+@media screen and (max-width:600px) {
+    .main1{
+        height: 250px;
+    }
+    .mainContent{
+        display: none;
+    }
+    .imgBox{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+    .imgContainer p:nth-child(odd){
+        font-size: 28px;
+        padding: 5px 0px;
+        font-weight: bold;
+    }
+    .imgContainer p:nth-child(even){
+        padding-bottom: 20px;
+    }
+}

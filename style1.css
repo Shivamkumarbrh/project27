@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    box-sizing: inherit;
+    padding: 0px;
+}
+.main1{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    box-sizing: border-box;
+    background-image: url('/img/appbg2.jpg');
+    background-size: cover;
+}
+.mainContent{
+    position: absolute;
+    bottom: 80px;
+    width: 70%;
+    padding: 20px 5px;
+    background-color: rgba(255, 255, 0, 0.79);
+}
+.mainContent:hover{
+    background-color: rgb(198, 154, 8);
+}
+.mainContent h2{
+    padding: 5px 10px;
+}
+.imgContainer{
+    width: 100%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+}
+.imgBox{
+    width: 50%;
+    padding: 15px;
+}
+.imgBox img{
+    width: 100%;
+    border-top: 6px solid #ffc107 ;
+}
+.imgContainer p:nth-child(odd){
+    font-size: 28px;
+    padding: 15px 0px;
+    font-weight: bold;
+}
+.imgContainer p:nth-child(even){
+    padding-bottom: 30px;
+}
