@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Itim&family=Raleway&family=Source+Code+Pro&display=swap');
 *{
     margin: 0px;
     box-sizing: inherit;
     padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
 }
 .main1{
     width: 100%;
-    height: 700px;
     position: relative;
+    height: 100vh;
+    background-blend-mode: color-burn;
     box-sizing: border-box;
-    background-image: url('/img/appbg2.jpg');
+    image-rendering:optimizeQuality;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_960_720.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .mainContent{
@@ -30,7 +36,6 @@
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid; */
 }
 .imgBox{
     width: 50%;
@@ -38,6 +43,7 @@
 }
 .imgBox img{
     width: 100%;
+    object-fit: cover;
     border-top: 6px solid #ffc107 ;
 }
 .imgContainer p:nth-child(odd){
